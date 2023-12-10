@@ -1,0 +1,11 @@
+.siq-company-logo {
+  background-image: url('https://firstshipper.com/favicon-32x32.png');
+  width: 100px;
+  height: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.siq-company-logo img {
+  display: none; /* Hide the image */
+}

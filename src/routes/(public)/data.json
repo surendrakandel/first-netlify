@@ -1,0 +1,41 @@
+{
+  "title": "first shipper LTL and Pallet shipping",
+  "description": "first shipper LTL and Pallet shipping",
+  "keywords": "first shipper LTL and Pallet shipping",
+  "canonical": "https://www.firstshipper.com/",
+  "robots": "index, follow",
+  "og:title": "first shipper LTL and Pallet shipping",
+  "og:description": "first shipper LTL and Pallet shipping",
+  "og:url": "https://www.firstshipper.com/",
+  "og:site_name": "first shipper LTL and Pallet shipping",
+  "og:type": "website",
+  "og:image": "https://www.firstshipper.com/images/firstshipper-logo.png",
+  "og:image:secure_url": "https://www.firstshipper.com/images/firstshipper-logo.png",
+  "og:image:width": "200",
+  "og:image:height": "200",
+  "og:image:type": "image/png",
+  "og:image:alt": "first shipper LTL and Pallet shipping",
+  "twitter:card": "summary",
+  "twitter:title": "first shipper LTL and Pallet shipping",
+  "twitter:description": "first shipper LTL and Pallet shipping",
+  "twitter:image": "https://www.firstshipper.com/images/firstshipper-logo.png",
+  "twitter:image:alt": "first shipper LTL and Pallet shipping",
+  "twitter:site": "@firstshipper",
+  "twitter:creator": "@firstshipper",
+  "twitter:domain": "firstshipper.com",
+  "twitter:url": "https://www.firstshipper.com/",
+  "introheading": "Your shipment quote is a click away",
+  "intro": "on building best product. We will take care of shipping.",
+  "demo": {
+    "heading": "live demo",
+    "subheading": "You focus on building best product. We will take care of shipping.",
+    "button": "live Demo",
+    "url": "https://www.firstshipper.com",
+    "alt": "live demostration of first shipper quote and booking system. we provide best and cheapest cost LTL and pallet shipping."
+  },
+  "get-started": {
+    "heading": "Start Shipping",
+    "subheading": "you focus on building best product. We will take care of shipping.",
+    "button": "Get a quote now"
+  }
+}

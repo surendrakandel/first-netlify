@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.firstshipper.app",
+      "sha256_cert_fingerprints": [
+        "48:8C:A9:4D:7E:0F:87:04:5B:5B:5B:96:EC:9F:48:D3:9E:48:7C:DF:E4:AB:50:F3:B2:B0:FF:69:E1:D7:84:EB"
+      ]
+    }
+  }
+]

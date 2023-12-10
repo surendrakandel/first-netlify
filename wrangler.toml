@@ -1,0 +1,30 @@
+name = "firstshipper-web-worker"
+account_id = "442a9f5f4ae01009c8ab3e8a0775b90f"
+compatibility_date = "2023-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+main = "./.cloudflare/worker.js"
+site.bucket = "./.cloudflare/public"
+
+build.command = "npm run build"
+
+workers_dev = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "firstshipper-dev"
+database_id = "5297479f-ae17-4d7a-a0dd-04c5ddbf7bb1"
+preview_database_id = "5297479f-ae17-4d7a-a0dd-04c5ddbf7bb1"
+migrations_dir = 'migrations'
+
+[vars]
+PUBLIC_DEV = 'DEV'
+LIBSQL_DB_URL = "https://mainblocs-surendrakandel.turso.io"
+CLOUDFLARE_API_TOKEN = "vPzfWZ7Yby2YKW8rKnHL3nY-Qc81IddfGfvgbpjQ"
+LIBSQL_DB_AUTH_TOKEN = "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2OTQ4MDE4NjUsImlkIjoiMWMwNzUyN2MtNTNmNC0xMWVlLWEzYzQtZGU1ZDllYzVmNWRjIn0.rvLOR_Lqbm96I-9vIqWv25fVtfTBj1ezIWfVmkvzPlhz1IS9JoVQOc_uBNcRJMznT2JWuktmx5Z8qP2CKCpPCA"
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "mainbloc"
+preview_bucket_name = "mainblocs-dev"
+
+browser = [{ binding = "BROWSER", type = "browser" }]

@@ -1,0 +1,11 @@
+{
+  "applinks": {
+      "apps": [],
+      "details": [
+      {
+        "appID": "MWXZTVN859.com.firstshipper.app",
+        "paths": ["*"]
+      }
+    ]
+  }
+}

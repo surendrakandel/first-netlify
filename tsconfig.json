@@ -1,0 +1,50 @@
+{
+  "extends": "./.svelte-kit/tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "bundler", // which module resolution strategy to use
+		"target": "ESNext", // which level of JS support to target
+		"module": "ESNext", // which module system to use
+    "allowJs": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "$env": ["src/app.d.ts"],
+      "$src": ["src"],
+      "$src/*": ["src/*"],
+      "$apis": ["src/apis"],
+      "$apis/*": ["src/apis/*"],
+      "$static": ["static"],
+      "$images": ["static/images"],
+      "$lib": ["src/lib"],
+      "$lib/*": ["src/lib/*"],
+      "$components": ["src/components/"],
+      "$components/*": ["src/components/*"],
+      "$assets": ["src/assets"],
+      "$layouts": ["src/layouts/"],
+      "$routes": ["src/routes/"],
+      "$routes/*": ["src/routes/*"],
+      "$gen": ["src/gen"],
+      "$gen/*": ["src/gen/*"],
+      "$stores": ["src/stores"],
+      "$stores/*": ["src/stores/*"],
+      "$types/": ["src/types"],
+      "$types/*": ["src/types/*"],
+      "$utils/": ["src/lib/utils"],
+      "$utils/*": ["src/lib/utils/*"]
+    },
+  },
+  "includes": ["src/**/*.ts", "src/**/*.svelte", "types/**/*.ts", "src/**/*.js", ".svelte-kit/ambient.d.ts"],
+  "exclude": [
+    "node_modules/*",
+    "dist/*",
+  ],
+  "noUnusedLocals": true,
+	"noUnusedParameters": true
+}
+ 

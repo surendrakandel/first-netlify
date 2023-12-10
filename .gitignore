@@ -1,0 +1,14 @@
+.DS_Store
+node_modules
+vscode 
+main
+/build
+.svelte-kit
+.vscode
+output
+/package
+.env
+.env.*
+!.env.example
+.vercel
+.output

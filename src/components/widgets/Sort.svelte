@@ -1,0 +1,2 @@
+
+<svg fill="#ffffff" width="20" height="20" viewBox="0 0 24 24" id="sort" xmlns="http://www.w3.org/2000/svg" class="icon line-color"><line id="secondary" x1="3" y1="12" x2="17" y2="12" style="fill: #ffffff; stroke:#ffffff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></line><path id="primary" d="M3,7H21M3,17H13" style="fill: none; stroke: #ffffff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg>
