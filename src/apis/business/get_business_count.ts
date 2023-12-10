@@ -1,6 +1,6 @@
 import { backendUrl } from '../config';
 
-export async function getBusinessCount(): Promise<string> {
+export async function getBusinessCount(fetch:any): Promise<string> {
   try {
     const res = await fetch(`${backendUrl}/business/business_count`, {
       credentials: 'include',
